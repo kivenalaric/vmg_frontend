@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:wght@100&family=Lato:wght@300;400&family=Lilita+One&family=Merienda&family=Merriweather&family=Montserrat&family=Oswald&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500;1,800&family=Roboto+Slab&family=Underdog&display=swap");
+
+.form {
+  background: black;
+  width: 96vw;
+  max-width: 400px;
+  .sign_up {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 20px;
+    color: #fff;
+    margin: 1rem auto;
+  }
+}
+
+.input {
+  padding: 0.5rem 1rem;
+  font-size: 14px !important;
+  color: #000;
+}
