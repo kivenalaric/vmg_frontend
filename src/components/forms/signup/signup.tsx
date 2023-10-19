@@ -55,7 +55,7 @@ export default function App(props: IAppProps) {
             <Formik
                 initialValues={{ name: "", email: '', password: '' }}
                 validationSchema={signupSchema}
-                onSubmit={(values: SignupFormValues) => {
+                onSubmit={(values: any) => {
                     handleFormSubmit(values);
                 }}
             >
